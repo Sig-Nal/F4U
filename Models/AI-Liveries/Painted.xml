@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+<sim>
+    <model>
+        <livery>
+            <name type="string">Painted</name>
+
+            <texture>Liveries/f4u-1p.png</texture>
+			<texture-left>Liveries/f4u-2p.png</texture-left>
+			<texture-right>Liveries/f4u-3p.png</texture-right>
+        </livery>
+    </model>
+</sim>
+</PropertyList>

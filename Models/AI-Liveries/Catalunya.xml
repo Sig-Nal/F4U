@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+<sim>
+    <model>
+        <livery>
+            <name type="string">Catalunya</name>
+
+            <texture>Liveries/f4u-1cat.png</texture>
+						<texture-left>Liveries/f4u-2cat.png</texture-left>
+						<texture-right>Liveries/f4u-3cat.png</texture-right>
+        </livery>
+    </model>
+</sim>
+</PropertyList>
