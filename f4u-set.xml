@@ -356,9 +356,18 @@ Approach 90-100 kts, 200 feet, full flaps, extend Hook (O)......
  			    <float n="8" alias="/gear/tailhook/position-norm"/>
  			    <float n="9" alias="/controls/engines/engine[0]/cowl-flaps-norm"/>
  			    <float n="10" alias="/controls/canopy/position-norm"/>
+ 			    <float n="12" alias="/sim/model/crew/pilot/visible"/>
+ 			    <float n="13" alias="/sim/current-view/view-number"/>
 
 				<string>0</string>
 				<string n="1">0</string>
+
+	        <int n="0" type="int">  0 </int>  <!-- Dual Control boolean light switches-->
+			<int n="2" alias="/sim/model/lights/beacon/state"/>
+			<int n="3" alias="/sim/model/lights/strobe/state"/>
+			<int n="4" alias="/controls/lighting/nav-lights"/>
+			<int n="5" alias="/controls/lighting/landing-lights"/>
+
 
 		</generic>
 	</multiplay>

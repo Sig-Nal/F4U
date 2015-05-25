@@ -69,6 +69,11 @@
 			loopid += 1;
     </unload>
   </nasal>
+
+ <sound>
+       <path>Aircraft/F4U/p51d-sound.xml</path>
+ </sound> 
+
 	<model>
 		<name>cockpit</name>
 		<path>Aircraft/F4U/Models/cockpit.xml</path>
@@ -1748,7 +1753,7 @@
   <object-name>pilot</object-name>
   <condition>
    <greater-than>
-    <property>sim/current-view/view-number</property>
+  <property>sim/multiplay/generic/float[13]</property>
     <value>0.0</value>
    </greater-than>
   </condition>
