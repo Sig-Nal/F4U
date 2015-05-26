@@ -1,10 +1,9 @@
 
+ 1 -- Landing-Lights don't work in multiplayer
 
- 1 -- Nav-Lights do not work in Multiplayer, 
+ 2 -- Logo change doesn't work in multiplayer
 
- 2 -- Logo change does not work in multiplayer
+ 3 -- Cockpit is not visible in multiplayer
 
- 3 -- Cockpit don't multiplay
-
-
+ 4 -- Condition Gear Out for Hook Down....
 

@@ -882,7 +882,7 @@
   <object-name>tailwheel</object-name>
   <object-name>tailwheel1</object-name>
   <object-name>hook</object-name>
-  <property>gear/gear[2]/position-norm</property>
+  <property>sim/multiplay/generic/float[16]</property>
   <interpolation>
    <entry>
     <ind>0.0</ind>
@@ -908,7 +908,7 @@
  <animation>
   <type>rotate</type>
   <object-name>tailwheeldoor.L</object-name>
-  <property>gear/gear[2]/position-norm</property>
+  <property>sim/multiplay/generic/float[16]</property>
   <interpolation>
    <entry>
     <ind>0.0</ind>
@@ -941,7 +941,7 @@
  <animation>
   <type>rotate</type>
   <object-name>tailwheeldoor.R</object-name>
-  <property>gear/gear[2]/position-norm</property>
+  <property>sim/multiplay/generic/float[16]</property>
   <interpolation>
    <entry>
     <ind>0.0</ind>
@@ -976,7 +976,7 @@
   <object-name>tailwheel</object-name>
   <object-name>tailwheel1</object-name>
   <object-name>tailgear1</object-name>
-  <property>gear/gear[2]/compression-norm</property>
+  <property>sim/multiplay/generic/float[17]</property>
   <interpolation>
    <entry>
     <ind>0.0</ind>
@@ -1001,7 +1001,7 @@
  <animation>
   <type>rotate</type>
   <object-name>hook</object-name>
-  <property>gear/gear[2]/position-norm</property>
+  <property>sim/multiplay/generic/float[16]</property>
   <interpolation>
    <entry>
     <ind>0.0</ind>
@@ -1027,7 +1027,7 @@
  <animation>
   <type>rotate</type>
   <object-name>hook</object-name>
-  <property>gear/gear[2]/position-norm</property>
+  <property>sim/multiplay/generic/float[16]</property>
   <interpolation>
    <entry>
     <ind>0.0</ind>
@@ -1055,7 +1055,7 @@
  <animation>
   <type>translate</type>
   <object-name>hook</object-name>
-  <property>gear/gear[2]/position-norm</property>
+  <property>sim/multiplay/generic/float[16]</property>
   <interpolation>
    <entry>
     <ind>0.0</ind>
@@ -1626,7 +1626,7 @@
       <object-name>tailwheel</object-name>
  			<object-name>tailwheel1</object-name>
       <object-name>tailgear1</object-name>
-      <property>gear/gear[2]/caster-angle-deg</property>
+  <property>sim/multiplay/generic/float[18]</property>
       <factor>1</factor>
       <center> 
         <x-m>8.345</x-m>
@@ -1955,7 +1955,7 @@
         <value>0.001</value>
      </less-than>
      <equals>
-        <property>sim/failure/left-wing-torn</property>
+        <property>sim/multiplay/generic/float[15]</property>
         <value>0</value>
      </equals>
      </and>
@@ -1976,7 +1976,7 @@
         <value>0.001</value>
      </less-than>
      <equals>
-        <property>sim/failure/right-wing-torn</property>
+        <property>sim/multiplay/generic/float[14]</property>
         <value>0</value>
      </equals>
      </and>
@@ -1997,7 +1997,7 @@
         <value>0.001</value>
      </less-than>
      <equals>
-        <property>sim/failure/left-wing-torn</property>
+        <property>sim/multiplay/generic/float[15]</property>
         <value>0</value>
      </equals>
      </and>
@@ -2018,7 +2018,7 @@
         <value>0.001</value>
      </less-than>
      <equals>
-        <property>sim/failure/right-wing-torn</property>
+        <property>sim/multiplay/generic/float[14]</property>
         <value>0</value>
      </equals>
      </and>

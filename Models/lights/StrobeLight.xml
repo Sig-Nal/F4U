@@ -25,7 +25,7 @@
     <type>select</type>
     <object-name>Light</object-name>
     <condition>
-      <property>/sim/model/lights/strobe/state</property> <!--<property>/sim/model/lights/sbc1/state</property>-->
+      <property>sim/multiplay/generic/int[3]</property> <!--<property>/sim/model/lights/sbc1/state</property>-->
     </condition>
   </animation>
 
@@ -54,7 +54,7 @@
     <type>select</type>
     <object-name>Light</object-name>
     <condition>
-      <property>controls/lighting/nav-lights</property>
+   <property>sim/multiplay/generic/int[4]</property>
     </condition>
   </animation-->
 

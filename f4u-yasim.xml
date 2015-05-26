@@ -6,7 +6,7 @@ YASim aerodynamic model for a F4U Corsair
 -->
 
 <!-- Weight of everything but fuel  (7010 empty) -->
-<airplane mass="8981">
+<airplane mass="8981" version="YASIM_VERSION_CURRENT">
 
 <!-- Approach configuration -->
 <approach speed="60" aoa="11">
