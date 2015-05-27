@@ -1077,9 +1077,12 @@
   <type>rotate</type>
   <object-name>hook</object-name>
   <property>sim/multiplay/generic/float[8]</property>
-        <condition>
-        <property>sim/multiplay/generic/float[16]</property>
-        </condition>
+		<condition>
+			<equals>
+                <property>sim/multiplay/generic/float[16]</property>
+				<value>1</value>
+			</equals>
+		</condition>
   <interpolation>
    <entry>
     <ind>0.0</ind>
