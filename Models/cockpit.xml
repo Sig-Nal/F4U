@@ -214,6 +214,17 @@
     </offsets>
   </model>
 
+ <model>
+    <name>deployedHooklight</name>
+    <path>Aircraft/F4U/Models/Instruments/PB/hook-light.xml</path>
+    <offsets>
+            <x-m>4.39</x-m>
+            <y-m>-0.160</y-m>
+            <z-m>0.585</z-m>
+      <roll-deg>0</roll-deg>
+    </offsets>
+  </model>
+
                                  <!--  Landing Switch  -->
  <model>
     <name>switch</name>
