@@ -1077,6 +1077,9 @@
   <type>rotate</type>
   <object-name>hook</object-name>
   <property>sim/multiplay/generic/float[8]</property>
+        <condition>
+        <property>sim/multiplay/generic/float[16]</property>
+        </condition>
   <interpolation>
    <entry>
     <ind>0.0</ind>
@@ -1719,20 +1722,20 @@
     <type>select</type>
     <object-name>leftwing</object-name>      
     <condition>
-        <not-equals>
-          <property>sim/failure/left-wing-torn</property>
-          <value>true</value>
-        </not-equals>
+        <equals>
+      <property>sim/multiplay/generic/float[15]</property>
+          <value>false</value>
+        </equals>
     </condition>
   </animation>
   <animation>
     <type>select</type>
     <object-name>rightwing</object-name>      
     <condition>
-        <not-equals>
-          <property>sim/failure/right-wing-torn</property>
-          <value>true</value>
-        </not-equals>
+        <equals>
+      <property>sim/multiplay/generic/float[14]</property>
+          <value>false</value>
+        </equals>
     </condition>
   </animation>
 

@@ -158,7 +158,7 @@ October 2006,  Detlef Faber
     </key>
     <key>
       <name>o/O</name>
-      <desc>extend/retract Tailhook</desc>
+      <desc>extend/retract Tailhook (only when Gear is Out)</desc>
     </key>
     <key>
       <name>C/c</name>
