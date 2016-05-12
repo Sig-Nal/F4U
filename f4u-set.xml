@@ -350,8 +350,8 @@ Approach 90-100 kts, 200 feet, full flaps, extend Hook (O)......
 				<float>2</float>
 				<float>3</float>
 				<float>4</float>
-				<float>5</float>
-				<float>6</float>
+				<float n="5" alias="/controls/engines/engine[0]/throttle" />
+				<float n="6" alias="/sim/model/smokeshooterspeed"/>
  			    <float n="7" alias="/controls/wingfold/position-norm"/>
  			    <float n="8" alias="/gear/tailhook/position-norm"/>
  			    <float n="9" alias="/controls/engines/engine[0]/cowl-flaps-norm"/>
@@ -374,6 +374,8 @@ Approach 90-100 kts, 200 feet, full flaps, extend Hook (O)......
 			<int n="4" alias="/controls/lighting/nav-lights"/>
 			<int n="5" alias="/controls/lighting/landing-lights"/>
 			<int n="6" alias="/sim/model/lights/sbc1/state"/>
+            <int n="7" alias="/controls/switches/landing-light"/>
+			<int n="12" alias="/engines/engine[0]/running"/>
 
 		</generic>
 	</multiplay>

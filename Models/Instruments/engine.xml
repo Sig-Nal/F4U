@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+
+<!-- air speed indicator -->
+
+<PropertyList>
+	<path>engine.ac</path>
+
+ <animation>
+  <type>material</type>
+  <object-name>Plane</object-name>
+  <object-name>Plane.002</object-name>
+  <object-name>Plane.003</object-name>
+  <object-name>Plane.004</object-name>
+  <object-name>amber</object-name>
+  <object-name>green</object-name>
+  <object-name>green.001</object-name>
+  <object-name>green.002</object-name>
+  <object-name>label</object-name>
+  <object-name>label.001</object-name>
+  <object-name>label.002</object-name>
+  <object-name>screws</object-name>
+  <object-name>screws.001</object-name>
+  <object-name>screws.002</object-name>
+  <emission>
+    <!--factor-prop>/controls/lighting/instruments-norm</factor-prop-->  <!-- systems/electrical/outputs/instrument-lights -->
+    <red>0.15</red>
+    <green>0.15</green>
+    <blue>0.15</blue>
+  </emission>
+ </animation>
+
+<effect>
+ <inherits-from>Effects/model-transparent</inherits-from>
+  <object-name>Plane</object-name>
+  <object-name>Plane.002</object-name>
+  <object-name>Plane.003</object-name>
+  <object-name>Plane.004</object-name>
+  <object-name>amber</object-name>
+  <object-name>green</object-name>
+  <object-name>green.001</object-name>
+  <object-name>green.002</object-name>
+  <object-name>label</object-name>
+  <object-name>label.001</object-name>
+  <object-name>label.002</object-name>
+  <object-name>screws</object-name>
+  <object-name>screws.001</object-name>
+  <object-name>screws.002</object-name>
+          <condition>
+             <property>sim/rendering/rembrandt/enabled</property>
+         </condition>
+  </effect> 
+
+
+
+</PropertyList>

@@ -5,17 +5,29 @@
 
  <animation>
   <type>material</type>
-  <object-name>Face</object-name>
-  <object-name>plate</object-name>
-  <object-name>bezelinside</object-name>
+  <object-name>Face.001</object-name>
+  <!--object-name>plate</object-name-->
+  <!--object-name>bezelinside</object-name-->
   <object-name>needle1</object-name>
   <emission>
-    <factor-prop>controls/lighting/instruments-norm</factor-prop>
+    <!--factor-prop>/controls/lighting/instruments-norm</factor-prop-->
     <red>0.5</red>
     <green>0.25</green>
     <blue>0.25</blue>
   </emission>
  </animation>
+
+<effect>
+ <inherits-from>Effects/model-transparent</inherits-from>
+  <type>material</type>
+  <object-name>Face.001</object-name>
+  <!--object-name>plate</object-name-->
+  <!--object-name>bezelinside</object-name-->
+  <!--object-name>needle1</object-name-->
+          <condition>
+             <property>sim/rendering/rembrandt/enabled</property>
+         </condition>
+  </effect>
 
 	<animation>
 		<type>rotate</type>
@@ -24,7 +36,7 @@
 		<interpolation>
 			<entry>
 				<ind>0</ind>
-				<dep>-151</dep>
+				<dep>-145</dep>  <!--  ori -151-->
 			</entry>
 			<entry>
 				<ind>40</ind>

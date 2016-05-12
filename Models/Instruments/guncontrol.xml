@@ -63,6 +63,23 @@
     </action>
  </animation>
 
+ <animation>
+  <type>material</type>
+  <object-name>gundimmer</object-name>
+  <object-name>Plane.020_1</object-name>
+  <object-name>gunsight</object-name>
+  <object-name>inguns</object-name>
+  <object-name>Midguns</object-name>
+  <object-name>outguns</object-name>
+  <object-name>masterarm</object-name>
+  <object-name>gun</object-name>
+  <emission>
+  <factor-prop>controls/lighting/gunsight-on</factor-prop>
+    <red>0.20</red>
+    <green>0.25</green>
+    <blue>0.25</blue>
+  </emission>
+ </animation>
 
  <animation>
   <type>rotate</type>

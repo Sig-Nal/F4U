@@ -9,13 +9,20 @@
   <object-name>Face</object-name>
   <object-name>needle1</object-name>
   <emission>
-    <factor-prop>/controls/lighting/instruments-norm</factor-prop>
+    <!--factor-prop>/controls/lighting/instruments-norm</factor-prop-->  <!-- systems/electrical/outputs/instrument-lights -->
     <red>0.5</red>
     <green>0.25</green>
     <blue>0.25</blue>
   </emission>
  </animation>
 
+<effect>
+ <inherits-from>Effects/model-transparent</inherits-from>
+  <object-name>Face</object-name>
+          <condition>
+             <property>sim/rendering/rembrandt/enabled</property>
+         </condition>
+  </effect> 
 
 	<path>asi430kt-us.ac</path>
 

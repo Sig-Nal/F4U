@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>fuel-reserve2.ac</path>
+
+<animation>
+ <type>material</type>
+  <object-name>Light</object-name>
+ <emission>
+      <red>   0.8 </red>
+      <green> 0.1 </green>
+      <blue>  0.1 </blue>
+  <!--factor-prop>consumables/fuel/tank/level-gal_us</factor-prop-->
+ </emission>
+</animation>
+
+<effect>
+ <inherits-from>Effects/model-transparent</inherits-from>
+  <type>material</type>
+  <object-name>Light</object-name>
+          <condition>
+             <property>sim/rendering/rembrandt/enabled</property>
+         </condition>
+  </effect>
+
+ <animation>
+  <type>select</type>
+  <object-name>Light</object-name>
+     <condition>
+     <less-than>
+        <property>consumables/fuel/total-fuel-norm</property>
+        <value>0.12</value>
+     </less-than>
+    </condition>
+ </animation>  
+
+ <!--animation>
+  <type>select</type>
+  <object-name>Light</object-name>
+     <condition>
+     <greater-than>
+        <property>consumables/fuel/tank/level-gal_us</property>
+        <value>0.8</value>
+     </greater-than>
+    </condition>
+ </animation-->
+</PropertyList>

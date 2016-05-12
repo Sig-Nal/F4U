@@ -1,6 +1,6 @@
 AC3Db
 MATERIAL "DefaultWhite" rgb 1 1 1  amb 1 1 1  emis 0 0 0  spec 0.5 0.5 0.5  shi 64  trans 0
-MATERIAL "indicator.001" rgb 1 0.9999 0.9999 amb 1 1 1 emis 0 0 0 spec 0.772969 0.772891 0.772891 shi 10 trans 0
+MATERIAL "indicator.001" rgb 0.9 0.8 0.8 amb 1 1 1 emis 0.25 0.15 0.15 spec 0.772969 0.772891 0.772891 shi 10 trans 0
 MATERIAL "case" rgb 0.228552 0.228552 0.253043 amb 0.9 0.9 0.9 emis 0 0 0 spec 0.5 0.49995 0.49995 shi 10 trans 0
 MATERIAL "screws" rgb 0.665303 0.555096 0.46938 amb 0.9 0.9 0.9 emis 0 0 0 spec 1 0.877548 0.755096 shi 32 trans 0
 OBJECT world

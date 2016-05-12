@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>cyltemp-red.ac</path>
+
+<animation>
+ <type>material</type>
+  <object-name>Circle.004L</object-name>
+ <emission>
+  <red>0.3</red>
+  <green>0.01</green>
+  <blue>0.01</blue>
+  <factor-prop>engines/engine[0]/cylinder-temp-degc</factor-prop>
+ </emission>
+</animation>
+
+<effect>
+ <inherits-from>Effects/model-transparent</inherits-from>
+  <type>material</type>
+  <object-name>Circle.004L</object-name>
+          <condition>
+             <property>sim/rendering/rembrandt/enabled</property>
+         </condition>
+  </effect>
+
+ <animation>
+  <type>select</type>
+  <object-name>Circle.004L</object-name>
+     <condition>
+     <and>
+     <greater-than>
+        <property>engines/engine[0]/cylinder-temp-degc</property>
+        <value>0.3</value>
+     </greater-than>
+     </and>
+    </condition>
+ </animation> 
+
+</PropertyList>

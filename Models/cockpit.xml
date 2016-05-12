@@ -112,6 +112,15 @@
   </offsets>
  </model>
  <model>
+  <path>Aircraft/F4U/Models/Instruments/cyltemp-redlite.xml</path>
+  <offsets>
+   <x-m>4.4105</x-m>
+   <y-m>0.183</y-m>
+   <z-m>0.62</z-m>
+  </offsets>
+ </model>
+
+ <model>
   <path>Aircraft/F4U/Models/Instruments/oiltemp.xml</path>
   <offsets>
    <x-m>4.41</x-m>
@@ -157,11 +166,29 @@
  </model>
 
  <model>
+  <path>Aircraft/F4U/Models/Instruments/fuel-reserve.xml</path>
+  <offsets>
+   <x-m>4.3885</x-m>
+   <y-m>0.287</y-m>
+   <z-m>0.481</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/F4U/Models/Instruments/fuel-reserve2.xml</path>
+  <offsets>
+   <x-m>4.3887</x-m>
+   <y-m>0.287</y-m>
+   <z-m>0.481</z-m>
+  </offsets>
+ </model>
+
+ <model>
   <path>Aircraft/F4U/Models/Instruments/ammeter-us.xml</path>
   <offsets>
    <x-m>4.41</x-m>
    <y-m>0.329</y-m>
-   <z-m>0.437</z-m>
+   <z-m>0.374</z-m>   <!-- ori .437-->
   </offsets>
  </model>
 
@@ -170,7 +197,7 @@
   <offsets>
    <x-m>4.41</x-m>
    <y-m>0.329</y-m>
-   <z-m>0.374</z-m>
+   <z-m>0.437</z-m>   <!-- ori .374-->
   </offsets>
  </model>
 
@@ -219,7 +246,18 @@
     <path>Aircraft/F4U/Models/Instruments/PB/hook-light.xml</path>
     <offsets>
             <x-m>4.39</x-m>
-            <y-m>-0.160</y-m>
+            <y-m>-0.165</y-m>
+            <z-m>0.585</z-m>
+      <roll-deg>0</roll-deg>
+    </offsets>
+  </model>
+
+ <model>
+    <name>deployedHooklight</name>
+    <path>Aircraft/F4U/Models/Instruments/PB/land-light.xml</path>
+    <offsets>
+            <x-m>4.39</x-m>
+            <y-m>-0.142</y-m>
             <z-m>0.585</z-m>
       <roll-deg>0</roll-deg>
     </offsets>
@@ -352,7 +390,7 @@
  </model>
  <model>
   <name>recog light panel</name>
-  <path>Aircraft/F4U/Models/Instruments/recog.ac</path>
+  <path>Aircraft/F4U/Models/Instruments/recog.xml</path>
   <offsets>
    <x-m>4.469</x-m>
    <y-m>0.398</y-m>
@@ -386,4 +424,26 @@
   </axis>
  </animation>
 -->
+
+                                 <!--  Thermo degrees  -->
+ <model>
+    <path>Aircraft/F4U/Models/Instruments/tnv-50/tnv-50.xml</path>
+  <offsets>
+            <x-m>4.415</x-m>
+            <y-m>0.33</y-m>
+            <z-m>0.62</z-m>
+  </offsets>
+  </model>
+
+                                 <!--  Gear view -->                        
+    <model>
+      <path>Aircraft/F4U/Models/Instruments/gearind-gb/undercarriage-up-down.xml</path>
+      <offsets> 
+            <x-m>4.45</x-m>
+            <y-m>-0.33</y-m>
+            <z-m>0.405</z-m>
+      <pitch-deg> -90</pitch-deg>
+      </offsets>
+    </model>
+
 </PropertyList>

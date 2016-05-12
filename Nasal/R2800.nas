@@ -171,4 +171,24 @@ var shift_blower_dn = func {
 }
 
 
+### check Temp state for Red panel light 
+
+# 			if (getprop ("engines/engine[0]/cylinder-temp-degc") > 0.4 ) {
+# 					setprop ("controls/lighting/redpanel", 1);
+# 			} 
+#             else {
+#					if (getprop ("controls/lighting/redpanel") == 1 ) {
+#							setprop ("controls/lighting/redpanel", 0);
+#					}
+#			}
+
+### check Temp state for Red panel light
+# var red_call = func {
+#      setprop("/controls/lighting/headlight", 1);
+# }
+# var red_stop = func {
+#      setprop("/controls/lighting/headlight", 0);
+# }
+
+
 setlistener("/sim/signals/fdm-initialized",init);

@@ -10,12 +10,22 @@
   <object-name>bezelinside</object-name>
   <object-name>needle1</object-name>
   <emission>
-    <factor-prop>controls/lighting/instruments-norm</factor-prop>
+    <!--factor-prop>controls/lighting/instruments-norm</factor-prop-->
     <red>0.5</red>
     <green>0.25</green>
     <blue>0.25</blue>
   </emission>
  </animation>
+
+<effect>
+ <inherits-from>Effects/model-transparent</inherits-from>
+  <type>material</type>
+  <object-name>Face</object-name>
+  <!--object-name>Needle1</object-name-->
+          <condition>
+             <property>sim/rendering/rembrandt/enabled</property>
+         </condition>
+  </effect>
 
  <animation>
   <type>rotate</type>

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>cyltemp-red.ac</path>
+
+  <animation>
+    <type>material</type>
+    <object-name>Circle.004L</object-name>
+    <emission>
+      <!--factor-prop>controls/switches/gauge-light</factor-prop-->
+      <red>   0.3 </red>
+      <green> 0.01 </green>
+      <blue>  0.01 </blue>
+    </emission>
+  </animation>
+
+ <animation>
+  <type>select</type>
+  <object-name>Circle.004L</object-name>
+   <condition>
+    <equals>
+  <property>engines/engine[0]/cylinder-temp-degc</property>
+     <value>1</value>
+    </equals>
+   </condition> 
+ </animation>  
+
+<!--effect>
+ <inherits-from>Effects/model-transparent</inherits-from>
+  <object-name>orange_lights</object-name>
+</effect-->
+
+<animation>
+ <type>material</type>
+  <object-name>Circle.004L</object-name>
+ <emission>
+  <red>0.3</red>
+  <green>0.01</green>
+  <blue>0.01</blue>
+  <factor-prop>engines/engine[0]/cylinder-temp-degc</factor-prop>
+ </emission>
+</animation>
+
+</PropertyList>

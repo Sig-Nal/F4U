@@ -134,7 +134,7 @@
             <position>
                 <x>-2.60369</x>
                 <y></y>
-                <z>-0.585916</z>
+                <z>2.585916</z>
             </position>
             <direction>
                 <x> -1.0 </x>
@@ -181,8 +181,8 @@
             <object-name>Landing_Light</object-name>
             <condition>
                 <and>
-				<property>controls/lighting/landing-light</property>
-                     <property>sim/rendering/rembrandt/enabled</property>
+				<property>sim/multiplay/generic/int[7]</property>
+                     <!--property>sim/rendering/rembrandt/enabled</property-->
                     <!--<greater-than>
                         <property>sim/time/sun-angle-rad</property>
                         <value>1.40</value>
