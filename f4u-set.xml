@@ -161,7 +161,7 @@ October 2006,  Detlef Faber
       <desc>extend/retract Tailhook (only when Gear is Out)</desc>
     </key>
     <key>
-      <name>C/c</name>
+      <name>Q/q</name>
       <desc>close/open Cowlflaps</desc>
     </key>
     <key>
@@ -513,16 +513,16 @@ Approach 90-100 kts, 200 feet, full flaps, extend Hook (O)......
           </binding>
       </key>
 
-      <key n="67">
-        <name>C</name>
+      <key n="81">
+        <name>Q</name>
         <desc>close Cowlflaps</desc>
         <binding> 
           <command>nasal</command>
           <script>R2800.close_cowlflaps()</script>
         </binding>
       </key>
-      <key n="99">
-        <name>c</name>
+      <key n="113">
+        <name>q</name>
         <desc>open Cowlflaps</desc>
         <binding> 
           <command>nasal</command>
