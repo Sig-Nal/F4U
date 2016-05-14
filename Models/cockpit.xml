@@ -253,7 +253,7 @@
   </model>
 
  <model>
-    <name>deployedHooklight</name>
+    <name>landinglight</name>
     <path>Aircraft/F4U/Models/Instruments/PB/land-light.xml</path>
     <offsets>
             <x-m>4.39</x-m>
